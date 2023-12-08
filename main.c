@@ -3,6 +3,7 @@
 #include <linux/module.h>     /* version info, MODULE_LICENSE, MODULE_AUTHOR, printk() */
 
 MODULE_DESCRIPTION("Linux driver");
+MODULE_LICENSE("GPL");
 MODULE_AUTHOR("Adriel Frezatti");
 
 static int simple_driver_init(void)

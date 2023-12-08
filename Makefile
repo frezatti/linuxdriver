@@ -1,4 +1,4 @@
-TARGET_MODULE:=simple-module
+TARGET_MODULE:=Linux-module
 
 # If we running by kernel building system
 ifneq ($(KERNELRELEASE),)
